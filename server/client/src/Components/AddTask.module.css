@@ -1,0 +1,49 @@
+.addTaskContainer {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+
+  margin: 0 auto;
+
+}
+
+.addTaskTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addTaskForm label {
+  margin-bottom: 5px;
+}
+
+.addTaskForm input,
+.addTaskForm textarea {
+  padding: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+
+  box-sizing: border-box;
+
+}
+
+.addTaskForm textarea {
+  resize: none;
+  height: 100px;
+
+}
+
+.addTaskForm button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

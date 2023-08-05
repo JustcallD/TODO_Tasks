@@ -1,0 +1,44 @@
+
+
+.popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popupContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.popupContentLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.popupContentInput,
+.popupContentTextarea {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 15px;
+
+}
+
+.popupContentTextarea {
+    height: 200px
+}
+
+.popupContentButton {
+    margin-right: 10px;
+}
